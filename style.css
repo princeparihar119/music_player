@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 80px;
+    background: url(image.jpg);
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    color: #ba3296;
+  }
+  
+  .controls {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  input[type="range"] {
+    width: 150px;
+  }
+  
+  #progressBar {
+    width: 300px;
+    height: 5px;
+    background-color: #ccc;
+    margin-top: 10px;
+  }
+  
+  #progress {
+    height: 100%;
+    background-color: #f32128;
+  }
+  
